@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul li {
+  list-style-type: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  background: url("../../img/bg.png") no-repeat;
+  padding: 0px 0px 680px 0px;
+}
+.promo .navigations {
+  display: flex;
+  justify-content: space-between;
+}
+.promo .menu {
+  display: flex;
+  gap: 25px;
+}
+.promo .menu a {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.promo .menu a:hover {
+  text-decoration: underline;
+  color: #ec644b;
+}
+.promo .logo {
+  padding-top: 23px;
+}
+.promo .menu {
+  margin-top: 60px;
+}
+.promo .contact {
+  display: flex;
+  margin-top: 48px;
+}
+.promo .contact__phone {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.promo .contact__tel {
+  display: block;
+}
+.promo .contact a {
+  color: #fff;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.promo .contact__btn {
+  margin-left: 19px;
+  text-align: center;
+  width: 160px;
+  height: 45px;
+  background-color: #ec644b;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+.promo__main {
+  text-align: center;
+}
+.promo .title {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.promo .subtitle {
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ec644b;
+}
+.promo__main__end {
+  font-size: 42px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.promo__prefer {
+  padding-top: 6px;
+}
+.promo__prefer__items {
+  display: flex;
+  text-align: center;
+  gap: 39px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.promo .main__btn_promo {
+  position: relative;
+  left: 43%;
+  padding: 39px 0px 82px 0px;
+}
+.promo .main__btn {
+  width: 230px;
+  height: 57px;
+  background-color: #ec644b;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.promo .promo__vector {
+  width: 806px;
+  margin-left: 84px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,147 @@
+.promo{
+    background:  url('../../img/bg.png') no-repeat;
+    padding: 0px 0px 680px 0px;
+  
+        .navigations{
+            display: flex;
+            justify-content: space-between;
+      
+
+        }
+        .menu{
+            display: flex;
+            gap:25px;
+            
+
+            a{
+                font-family: 'Roboto';
+                font-size: 15px;
+                line-height: 16px;
+                font-weight: 400;
+                color: #ffffff;
+            
+                &:hover{
+                   
+                    text-decoration: underline;
+                    color: #ec644b;
+                    
+                }
+            }
+        }
+        .logo{
+            padding-top: 23px;
+        }
+        .menu{
+            margin-top: 60px;
+        }
+        .contact{
+           
+          display: flex;
+            margin-top: 48px;
+            &__phone{
+                
+                text-align: right;
+               
+            font-size: 14px;
+
+            font-weight: 300;
+            color: #ffffff;
+            }
+            &__tel{
+               display: block;
+             
+            }
+            a{
+                color:#fff;
+                font-size: 19px;
+                line-height: 24px;
+                font-weight: 700;
+               }
+             &__btn{
+                
+             
+                margin-left: 19px;
+                text-align: center;
+                    width: 160px;
+    height: 45px;
+    background-color: #ec644b;
+                border-radius: 50px;
+                font-size: 12px;
+
+font-weight: 400;
+text-transform: uppercase;
+color: #ffffff;
+
+border: none;
+             }  
+        }
+    
+        &__main{
+         
+            text-align: center;
+        }
+        .title{
+            
+        font-size: 24px;
+
+        font-weight: 300;
+        color: #ffffff;
+        }
+        .subtitle{
+    
+            font-size: 72px;
+
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ec644b;
+        }
+        &__main__end{
+          
+font-size: 42px;
+
+font-weight: 400;
+text-transform: uppercase;
+color: #ffffff;
+
+
+        }
+     &__prefer{
+        padding-top: 6px;
+   
+    
+     }
+     &__prefer__items{
+        display: flex;
+        // justify-content: space-between;
+        text-align: center;
+        gap: 39px;
+     
+font-size: 16px;
+line-height: 22px;
+font-weight: 300;
+color: #ffffff;
+    }
+    .main__btn_promo{
+        position: relative;
+        left: 43%;
+padding: 39px 0px 82px 0px;
+    }
+    .main__btn{
+        width: 230px;
+height: 57px;
+background-color: #ec644b;
+border-radius: 50px;
+
+font-size: 15px;
+
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
+text-align: center;
+
+    }
+    .promo__vector{
+        width: 806px;
+        margin-left: 84px;
+    }
+}
